@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import ScrollReset from './ScrollReset';
 
 export const metadata: Metadata = {
   title: 'Regis Foods | Quality Frozen Food Delivered',
@@ -10,7 +11,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en-GB">
-      <body>{children}</body>
+      <body>
+        <ScrollReset />
+        {children}
+      </body>
     </html>
   );
 }
