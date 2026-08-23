@@ -3,9 +3,9 @@ import type { Metadata } from 'next';
 import ScrollReset from './ScrollReset';
 
 export const metadata: Metadata = {
-  title: 'Regis Foods | Quality Frozen Food Delivered',
+  title: 'Harbour & Hearth | Premium Frozen Food Concept',
   description:
-    'Regis Foods is a family run frozen food delivery business serving the south of England and Wales with fish, shellfish, meat, poultry and gourmet specialities.',
+    'Harbour & Hearth is a fictional premium frozen food delivery concept exploring stronger brand positioning, product presentation and digital experience.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
